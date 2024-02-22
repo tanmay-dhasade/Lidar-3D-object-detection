@@ -9,3 +9,4 @@
 /kitti/testing/image_2/*
 /kitti/testing/velodyne/*
 
+!kitti
