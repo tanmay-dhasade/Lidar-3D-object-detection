@@ -1,0 +1,11 @@
+/kitti/training/calib/*
+/kitti/training/label_2/*
+/kitti/training/image_2/*
+/kitti/training/velodyne/*
+/kitti/training/calib/*
+
+
+/kitti/testing/calib/*
+/kitti/testing/image_2/*
+/kitti/testing/velodyne/*
+
