@@ -1,12 +1,21 @@
-/kitti/training/calib/*
-/kitti/training/label_2/*
-/kitti/training/image_2/*
-/kitti/training/velodyne/*
-/kitti/training/calib/*
+# Ignore all files in the specified folders
+kitti/training/calib/*
+kitti/training/label_2/*
+kitti/training/image_2/*
+kitti/training/velodyne/*
 
+# But include the folders themselves
+!kitti/training/calib/
+!kitti/training/label_2/
+!kitti/training/image_2/
+!kitti/training/velodyne/
 
-/kitti/testing/calib/*
-/kitti/testing/image_2/*
-/kitti/testing/velodyne/*
+# Ignore all files in the specified folders
+kitti/testing/calib/*
+kitti/testing/image_2/*
+kitti/testing/velodyne/*
 
-!kitti
+# But include the folders themselves
+!kitti/testing/calib/
+!kitti/testing/image_2/
+!kitti/testing/velodyne/
